@@ -25,13 +25,13 @@
 
         <div class="row flex-nowrap">
 
-            <div class="col-sm">
+            <div id="yourCities" class="col-sm justify-content-start">
                 <div class="search-box p-5 m-2">
                     <p>Search for a City!</p>
                     <input id="cityInput" placeholder="Your City" type="text">
                     <btn id="searchButton" type="button" class="btn btn-primary">ICON HERE </btn>
 
-                    <div class="cities-box p-2">cities box
+                    <div class="cities-box p-2" id="stored-cities">cities box
                         <!-- add each city that the user types in -->
                     </div>
                 </div>
@@ -39,26 +39,20 @@
 
             <div class="main col-lg">
 
-                <div class="top-box">
+                <div id="todaysWeather" class="top-box bg-primary">
                     <!-- JAVSCRIPT Inputs HERE -->
-                    CityName: Todays Date + ICON
+                    <!-- CityName: Todays Date + ICON</br>
                     Temperature: Temp</br>
                     Humidity: 41%</br>
                     Wind Speed: 4.7 MPH</br>
-                    UV Index: <span>Index and Color</span>
+                    UV Index: <span>Index and Color</span> -->
                 </div>
 
-                <div id="forecast">
-                    <div class="row">5 day forecast:</div>
-                    <div id="forecastDayOne" class="col"></div>
-                    date</br>
-                    icon</br>
-                    temp</br>
-                    humidity
-                    <div id="forecastDayTwo" class="col"></div>
-                    <div id="forecastDayThree" class="col"></div>
-                    <div id="forecastDayFour" class="col"></div>
-                    <div id="forecastDayFive" class="col"></div>
+                <!-- five day forecast -->
+                <div class='container'>
+                    <div class="row five-day-cards" id= "5-day-forecast">
+s
+                    </div>
                 </div>
 
 
@@ -66,9 +60,9 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
