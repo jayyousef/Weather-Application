@@ -25,33 +25,29 @@
 
         <div class="row flex-nowrap">
 
-            <div id="yourCities" class="col-sm justify-content-start">
+            <div id="yourCities" class="col-4 sideBar">
                 <div class="search-box p-5 m-2">
+                    
                     <p>Search for a City!</p>
                     <input id="cityInput" placeholder="Your City" type="text">
-                    <btn id="searchButton" type="button" class="btn btn-primary">ICON HERE </btn>
-
-                    <div class="cities-box p-2" id="stored-cities">cities box
+                    <btn id="searchButton" type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg></btn>
+                    <div class="cities-box p-2" id="stored-cities">
                         <!-- add each city that the user types in -->
                     </div>
+                    
                 </div>
             </div>
 
-            <div class="main col-lg">
+            <div class="main col-lg-8">
 
-                <div id="todaysWeather" class="top-box bg-primary">
-                    <!-- JAVSCRIPT Inputs HERE -->
-                    <!-- CityName: Todays Date + ICON</br>
-                    Temperature: Temp</br>
-                    Humidity: 41%</br>
-                    Wind Speed: 4.7 MPH</br>
-                    UV Index: <span>Index and Color</span> -->
+                <div id="todaysWeather" class="border p-4 rounded top-box">
                 </div>
 
                 <!-- five day forecast -->
                 <div class='container'>
                     <div class="row five-day-cards" id= "5-day-forecast">
-s
                     </div>
                 </div>
 
