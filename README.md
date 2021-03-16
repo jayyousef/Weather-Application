@@ -2,6 +2,7 @@
 
 This is an application utilizing JQuery and Bootstrap to build a simple web page that can show you the current weather and the forecast for the next five days for any city that you search. Every city you search for will be saved to local storage and then re-populated every time you bring up the page. At any time, you can click on any of your cities and see that weather informaion again. This will be extremely helpful for planning trips or knowing when to take out your motorcycle!
 
+[Link to Live Application](https://jayyousef.github.io/Weather-Application/)
 
 Included in this application are:
 * Manipulating the DOM to create buttons & creating weather information & 5-day-forecast
@@ -65,7 +66,7 @@ If any additional issues are found, or if there are any suggestions for improvem
 3. After downloading, open the .zip file and select "Extract All" from the top of the window that appears
 4. Access the content with your code editor by selecting `File > Open Folder` in your code editor menu. If only viewing in a browser, simply double click index.html to open in your default browser
 
-[Link to Live Calendar Application](https://jayyousef.github.io/Weather-Application/)
+
 
 ---
 
