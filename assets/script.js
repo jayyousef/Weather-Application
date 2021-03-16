@@ -35,6 +35,15 @@ function getUserCity() {
     }
 
     if (userCity !== "") {
+
+        //1 get the current localstorage cities
+        //2parse if exists and then assign to value
+        //else write new value 
+        //if it does exist + parsed
+        //storedCities.includes(userCity)
+        // if true then ignore
+        //else store city
+
         storedCity.push(userCity) //pushes to local storage's stored cities
 
         localStorage.setItem('city', JSON.stringify(storedCity))
@@ -68,9 +77,6 @@ function onOpenBrowser() {
                 addCityName.textContent = storedCity[index]
                 yourCities.appendChild(addCityName)
                 yourCities.appendChild(document.createElement("br"))
-
-
-
             }
         }
     }
