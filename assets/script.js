@@ -25,8 +25,6 @@ function getUserCity() {
     let remainder = userCity.slice(1).toLowerCase()
     userCity = firstLetter+remainder
 
-    console.log(userCity)
-
     let storedCity = JSON.parse(localStorage.getItem('city'));
 
     if (!storedCity) {
@@ -35,14 +33,6 @@ function getUserCity() {
     }
 
     if (userCity !== "") {
-
-        //1 get the current localstorage cities
-        //2parse if exists and then assign to value
-        //else write new value 
-        //if it does exist + parsed
-        //storedCities.includes(userCity)
-        // if true then ignore
-        //else store city
 
         storedCity.push(userCity) //pushes to local storage's stored cities
 
