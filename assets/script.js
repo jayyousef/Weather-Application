@@ -88,12 +88,13 @@ function getLongLat(userCity) {
     fetch('https://api.openweathermap.org/data/2.5/find?q=' + userCity + '&units=imperial&appid=' + key)
         .then(response => response.json())
         .then(data => {
-
+            if (data.list.length != 0) {
             let lat = data.list[0].coord.lat
             let lon = data.list[0].coord.lon
 
-
+            
             fetchWeatherInfo(userCity, lon, lat)
+            }
         })
 }
 
