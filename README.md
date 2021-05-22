@@ -74,4 +74,4 @@ These updates are covered under [GNU General Public License v3.0](./Assets/GNU_P
 
 ## Screenshot below:
 
-![WeatherApp](./Assets/weatherApp.png)
+![WeatherApp](./assets/weatherApp.png)
